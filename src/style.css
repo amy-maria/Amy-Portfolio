@@ -11,3 +11,9 @@ h2 {
 .icon img{
     border-radius: 50%;
 }
+.socials {
+   display: var(--fa-display-inline-block);
+   margin:var(--fa-li-margin-10px);
+   text-align: center;
+   padding: 30px;
+}
