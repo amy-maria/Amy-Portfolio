@@ -1,8 +1,13 @@
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
+    text-align: center;
 }
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
+    text-align:center;
+}
+.icon img{
+    border-radius: 50%;
 }
