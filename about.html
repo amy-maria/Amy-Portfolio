@@ -6,35 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Amy Rowell, Front-end web developer portfolio site"
-    />
+      content="Amy Rowell, Front-end web developer portfolio site" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
     <link
       rel="stylesheet"
       href="https://kit.fontawesome.com/150c91de49.css"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
     <link href="src/style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/150c91de49.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <title>Amy Rowell, Front-end Web Developer</title>
   </head>
   <body>
@@ -47,8 +41,7 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -60,7 +53,7 @@
               <a class="nav-link active" href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="images/ResumeMay2023.pdf">Resume</a>
@@ -74,16 +67,17 @@
       <h1>About Me</h1>
     </header>
 
-    <div class="container about-section">
-      <div class="card mt-4 mx-auto border border-5" style="max-width: 800px">
+
+    <div class="container">
+      <div class="experience card mt-4 mx-auto border border-success" style="max-width: 800px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
               src="images/LinkedIn picture.jpeg"
               alt="picture of Amy"
-              class="card-img-top object-fit-cover border border-0"
-            />
+              class="rounded card-img-top object-fit-cover border border-0" />
           </div>
+      
           <div class="col-md-8 mb-4">
             <div class="card-body">
               <h4 class="card-title text-center">Amy Rowell</h4>
@@ -91,50 +85,70 @@
                 I'm a front-end web developer from Ohio. Prior to gaining
                 experience with web development, I worked in healthcare. I have
                 previous management experience in a hospital setting. I also
-                have LIS/HIS experience with several platforms. New projects and
+                have LIS/HIS experience with several platforms. </p><p>New projects and
                 technologies will be added to my home page as they are
-                completed.
+                completed.</p>
               </p>
-              <span class="tech-icons">
-                <p><i class="fa-brands fa-lg fa-html5"></i>HTML</p>
-                <p><i class="fa-brands fa-lg fa-css3"></i>CSS</p>
-                <p><i class="fa-brands fa-lg fa-js"></i>Javascript</p>
 
-                <p><i class="fa-brands fa-lg fa-bootstrap"></i>Bootstrap</p>
-                <p><i class="fa-brands fa-lg fa-react"></i>React</p>
+              <span class="tech-icons">
+                <p><i class="fa-brands  fa-html5"></i>HTML</p>
+                <p><i class="fa-brands fa-css3"></i>CSS</p>
+                <p><i class="fa-brands fa-js"></i>Javascript</p>
+                <p><i class="fa-brands fa-bootstrap"></i>Bootstrap</p>
+                <p><i class="fa-brands  fa-react"></i>React</p>
+              <p><i class="fa-brands fa-square-font-awesome-stroke"></i>Font Awesome</p>
               </span>
             </div>
           </div>
+         </div>
         </div>
       </div>
-    </div>
+ 
 
-    <div class="contact-icons">
-      <a
-        href="https://twitter.com/amymrowell"
-        target="_blank"
-        ref="link to twitter profile"
-      >
-        <i class="fa-brands fa-twitter fa-lg fa-fw"> </i>
-      </a>
-      <a
-        href="https://github.com/amy-maria/Amy-Portfolio"
-        target="_blank"
-        ref="link to github"
-      >
-        <i class="fa-brands fa-github fa-lg fa-fw"> </i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/amymrowell/"
-        target="_blank"
-        ref="link to LinkedIn profile"
-      >
-        <i class="fa-brands fa-linkedin fa-lg fa-fw"></i>
-      </a>
-      <a href="mailto:amymrowell@gmail.com">
-        <i class="fa-regular fa-envelope fa-lg fa-fw"></i>
-      </a>
-      <i class="fa-regular fa-copyright fa-fw">2023</i>
+    <footer class="contact-icons">
+     
+        <ul class="list-group list-group-horizontal justify-content-center">
+          <li>
+            <a
+              href="https://twitter.com/amymrowell"
+              target="_blank"
+              ref="link to twitter profile">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              
+              href="https://github.com/amy-maria"
+              target="_blank"
+              ref="link to github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+            
+              href="https://www.linkedin.com/in/amymrowell/"
+              target="_blank"
+              ref="link to LinkedIn profile">
+              <i class="fa-brands fa-linkedin fa-fw"></i>
+            </a>
+          </li>
+          <li>
+            <div id="contact">
+              <a href="mailto: amymrowell@gmail.com" >
+                 <i class="fa-regular fa-envelope fa-fw"></i>
+               </a>
+               </div>
+             </li>
+             </ul>
+             <ul>
+             <li>
+              </p><i class="fa-regular fa-copyright fa-fw"></i> 2023<p>
+            </li>
+          </ul>
+       
+      </footer>
     </div>
   </body>
 </html>

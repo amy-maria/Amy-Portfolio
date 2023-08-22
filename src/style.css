@@ -1,27 +1,48 @@
 :root {
-    --header-bg-color:#4245f5;
+    --header-bg-color:#A998EE;
     --font-color: #101313;
-    --primary-color-co: #4245f5;
-    --primary-border: #b342f5;
+    --primary-color-co: #2D1674;
+    --primary-border: #00753E;
+    --primary-background: #899DE8;
+    --nav-color:#F4F2EE;
 
 
 }
-* {
-    color: var(--font-color);
+*, *::before, *::after{
+
+    box-sizing: border-box;
+    
   }
+* {
+    margin: 0;
+    padding: 0;
+    font:inherit;
+}
+html {
+    color-scheme: dark light;
+}
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
 body{
     position: relative;
+    background-color: var(--primary-background);
+    min-height: 100vh;
+    
 }
  
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     text-align: center;
+    color: var(--primary-color-co);
 }
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     text-align: center;
+    color: var(--primary-border)
 }
 h3 {
     font-family: 'Poppins', sans-serif;
@@ -33,15 +54,25 @@ h4, p {
     font-size: 22px;
 }
 header{
-    background-color: var(--header-bg-color);
+    background-color: var(--primary-background);
+
     padding: 20px;  
 }
+.navbar {
+     background-color: var(--nav-color);
+}
+footer {
+    position:fixed bottom;
+}
+
+
 .icon img{
     border-radius: 50%;
 }
 .nav {
     position: fixed;
     top: 0;
+    background-color: var(--header-bg-color);
 }
 :visited {
     color: var(--primary-border);
@@ -57,31 +88,50 @@ header{
     text-align: left;
     margin: 30px;
 }
+.experience {
+    background-color: var(--primary-background);
+    
+}
+
 .fa-brands, .fa-regular {
     display: inline-block;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased; 
     font-style: normal;
     padding: 20px;
+}
 
-  }
+.about-section {
+    background-color: var(--primary-background);
+}
 
-  @media screen and (max-width: 700px) {
-        .flex-container {
-          flex-direction: column;
-        }
+
+ul {
+list-style-type: none;
+}
+  @media screen and (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+        
         h1 {
             font-family: 'Poppins', sans-serif
             font-size: 28px;
+            text-align: center;
         }
         h2,h3 {
             font-family: 'Poppins', sans-serif
             font-size: 22px;
         }
-        h4, p {
+        h4, h5 {
             font-size: 16px;
         }
+        p {
+            font-size: 12px;
+        }
+        
+    
+
       }
     
- 
-  
+      
