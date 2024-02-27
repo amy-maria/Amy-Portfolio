@@ -98,7 +98,7 @@ header{
     
 }
 
-.fa-brands, .fa-regular {
+.fa-brands, .fa-regular, .fa {
     display: inline-block;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased; 
