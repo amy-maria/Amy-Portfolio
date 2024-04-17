@@ -142,11 +142,18 @@
              </li>
          
              <li>
-              <span><i class="fa-regular fa-copyright ">2023</i></span>
+              <i class="fa fa-copyright" aria-hidden="true">
+                <span class="year"></span>
+              </i> class="fa-regular fa-copyright ">2023</i></span>
             </li>
           </ul>
-       
       </footer>
+      <script>
+        const footerYear = document.querySelectorAll('.year');
+        footerYear.forEach((copyright) => {
+          copyright.innerHTML = new Date().getFullYear();
+        });
+      </script>
     </div>
   </body>
 </html>
